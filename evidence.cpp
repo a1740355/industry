@@ -49,11 +49,12 @@ int triangle_type()
 int increment()
 {
     int counter = 7;
-    cout << counter++ << endl;
+    cout << ++counter << endl;
 
     return 0;
 }
 
+// Simple program for if statements
 int bmi_cal()
 {
     float weight,height,bmi;
@@ -188,6 +189,7 @@ int multi_tables()
     return 0;
 }
 
+// More sutff on nested for loops
 int draw()
 {
     int height,width;
@@ -257,7 +259,7 @@ int draw3()
     return 0;
 }
 
-
+// Recursive function, works by adding nums together
 int recursive_sum(int num_1, int num_2)
 {
     if (num_1 == num_2)
