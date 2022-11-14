@@ -269,6 +269,20 @@ int recursive_sum(int num_1, int num_2)
 
 }
 
+// Pointers
+// Instead of writing 2 functions to do this or use normal  array moving, can do pointers
+// Need to assign a value from array to do this
+void get_min_and_max (int numbers[], int size, int * min, int* max)
+{
+    
+    for (int i = 1; i < size; i++)
+    {
+        if (numbers[i] > *max) *max = numbers[i];
+        if (numbers[i]< *min) *min = numbers[i];
+    }
+
+}
+
 int main()
 {
 
