@@ -95,5 +95,7 @@ int main()
     //employee1.setAge(15);
     //cout << employee1.getName() << " is " << employee1.getAge()<< " years old."<<endl;
 
+    return 0;
+
 
 }
